@@ -1,0 +1,22 @@
+name: core_clean_architecture
+description: Clean Architecture provides Views, Controllers, Presenters, Observers, and UseCases.
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.1"
+
+dependencies:
+  logging: ^1.0.0
+  meta: ^1.3.0
+  provider: ^6.0.1
+  responsive_builder: ^0.4.1
+  rxdart: ^0.26.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
