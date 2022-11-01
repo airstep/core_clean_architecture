@@ -413,7 +413,7 @@ typedef ControlledBuilder<AnyController extends Controller> = Widget Function(
 ///       )
 ///     }
 ///   }
-/// ``
+/// ```
 class ControlledWidgetBuilder<AnyControler extends Controller>
     extends StatelessWidget {
   /// Constructor
